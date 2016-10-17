@@ -29,11 +29,59 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:ftdi
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:Altera
+LIBS:analog_devices
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:ir
+LIBS:Lattice
+LIBS:logo
+LIBS:maxim
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:motor_drivers
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:video
+LIBS:Xicor
+LIBS:Zilog
+LIBS:max10-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -269,12 +317,24 @@ $EndComp
 $Comp
 L BARREL_JACK CON?
 U 1 1 57BE626B
-P 1100 950
-F 0 "CON?" H 1100 1200 50  0000 C CNN
-F 1 "BARREL_JACK" H 1100 750 50  0000 C CNN
-F 2 "" H 1100 950 50  0000 C CNN
-F 3 "" H 1100 950 50  0000 C CNN
-	1    1100 950 
+P 10100 3800
+F 0 "CON?" H 10100 4050 50  0000 C CNN
+F 1 "BARREL_JACK" H 10100 3600 50  0000 C CNN
+F 2 "" H 10100 3800 50  0000 C CNN
+F 3 "" H 10100 3800 50  0000 C CNN
+	1    10100 3800
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 1550 1000 800  250 
+U 57CEC330
+F0 "PowerSys" 60
+F1 "power.sch" 60
+$EndSheet
+$Sheet
+S 2800 1000 850  250 
+U 57F79C91
+F0 "FTDI" 60
+F1 "FTDI.sch" 60
+$EndSheet
 $EndSCHEMATC
